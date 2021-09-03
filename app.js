@@ -1,10 +1,12 @@
-// Arithmetic Operators
+// Assignment Operators
 
-const a = 2
-const b = 7
-console.log(a + b)
-console.log(a - b)
-console.log(a * b)
-console.log(a / b)
-console.log(a ** b)
-console.log(b % a)
+let Name = "Nishtha"
+let a = 19
+console.log(typeof a)
+a += Name
+console.log(typeof a)
+console.log(a)
+
+// a/=7
+// a*=
+// a**= FOR EXPONENTIAL FUNCTION
