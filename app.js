@@ -1,8 +1,10 @@
-console.log("Hey, this is my first piece of JavaScript code!!! WOHOO")
-console.log({name: "Nishtha" })
-console.log(true)
-console.log(false)
-console.log(false, 12345, 'string', { name: "Nishtha"})
-console.warn("This is a WARNING")
-console.error("this is an error")
-console.log('clear')
+// Arithmetic Operators
+
+const a = 2
+const b = 7
+console.log(a + b)
+console.log(a - b)
+console.log(a * b)
+console.log(a / b)
+console.log(a ** b)
+console.log(b % a)
