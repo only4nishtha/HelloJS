@@ -1,23 +1,25 @@
-// Logical Operators
+// Logical operators
 
-const a = 21
-const b = 7
-const c = 21
-console.log('a > b', a > b)
-console.log('a < b', a < b)
+const a = 2
+const b = 3
+
 console.log('a == b', a == b)
-console.log('a == c', a == c)
-console.log('a >= c', a >= c)
+console.log('a != b', a != b)
+console.log('')
 
-console.log("________________________________")
+console.log('Truth table for AND')
+console.log('')
 
-const x = 11
-const y = '11'
-console.log('x == y', x == y)
-console.log('x === y', x === y) 
-//STRICT OPERATOR- compares data type too
-// 11==11 and Number== String
+console.log('false && false', false && false)
+console.log('true && true', true && true)
+console.log('true && false', true && false)
+console.log('false && true', false && true)
+console.log('')
 
-const e = 'Nishtha'
-const d = 'nishtha'
-console.log('e == d', e == d) //not equal due to different AISCII code
+console.log('Truth table for OR')
+console.log('')
+
+console.log('false|| false', false || false)
+console.log('true|| true', true || true)
+console.log('true|| false', true || false)
+console.log('false|| true', false || true)
