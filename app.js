@@ -1,25 +1,15 @@
-// Logical operators
+// const element = document.getElementById('selectme')
 
-const a = 2
-const b = 3
+// const element = document.getElementsByClassName('heading')
 
-console.log('a == b', a == b)
-console.log('a != b', a != b)
-console.log('')
+// const element = document.getElementsByTagName('div')
 
-console.log('Truth table for AND')
-console.log('')
+// const element = document.querySelector('.heading')
+// Query selector returns just the FIRST MATCH
 
-console.log('false && false', false && false)
-console.log('true && true', true && true)
-console.log('true && false', true && false)
-console.log('false && true', false && true)
-console.log('')
+// const element = document.querySelectorAll('.heading')
+// QUERY SELECTOR ALL returns NODE LIST (list of nodes)- something like array
 
-console.log('Truth table for OR')
-console.log('')
+const element = document.querySelector('h3.heading')
 
-console.log('false|| false', false || false)
-console.log('true|| true', true || true)
-console.log('true|| false', true || false)
-console.log('false|| true', false || true)
+console.log(element)
