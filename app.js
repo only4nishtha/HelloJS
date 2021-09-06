@@ -2,14 +2,14 @@
 // const paper = document.querySelector('#paper')
 // const scissor = document.querySelector('#scissor')
 
-function logName(Name="Enter your name", age = 18){
-    console.log(Name + " You are" + age)
+const add1 = (a=0, b=0) => { //this is preferred since all functions are declared iniitially and it looks neat
+    return a + b
+}
+console.log(add1(12, 23))
+
+console.log(add2(12, 5)) //with FUNCTION KEYWORD, this line can be used before declaration.
+
+function add2(a=0, b=0){
+    return a+b
 }
 
-logName() //output UNDEFINED if no parameter is passed
-
-function add(a=0, b=0){
-    const sum= a+b
-    return sum
-}
-console.log(add())
