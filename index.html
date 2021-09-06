@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HelloJS</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style></style>
+    <title>Document</title>
+    <script defer src="./app.js"></script>
     <style>
-        body {
-            background-color: #fff;
-        }
-        .dark {
-            background-color: #111;
-            color: white;
-        }
-    </style>
+      div.images img {
+        width: 200px;
+      }
 
-    <!-- <script defer src="./app.js"></script> -->
-</head>
-<body>    
-    <div>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-        </div>
-    <button>Click me</button>
-        <script src="./app.js"></script>
-</body>
+      div.images img:hover {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="images">
+      <img
+        id="rock"
+        src="https://www.svgrepo.com/show/323925/rock.svg"
+        alt=""
+      />
+      <img
+        id="paper"
+        src="https://www.svgrepo.com/show/318481/paper.svg"
+        alt=""
+      />
+      <img
+        id="scissor"
+        src="https://www.svgrepo.com/show/168499/scissors.svg"
+        alt=""
+      />
+    </div>
+  </body>
 </html>
